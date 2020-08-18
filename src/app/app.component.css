@@ -1,0 +1,86 @@
+
+.main {
+    min-height: 100%;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: #DCDCDC;
+    overflow-x: hidden;
+}
+.upper-div {
+    min-height: 30%;
+}
+
+.testimonial {
+    color: #32CD32;
+    font-size: large;
+    font-weight: bold;
+}
+
+.wcs {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.dummy-div{
+    width: 70%;
+}
+
+.dummy {
+    color: #A9A9A9;
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 2;
+    white-space: pre-line;
+}
+
+.lower-div {
+    border: 1px solid #DCDCDC;
+    min-height: 100%;
+    height: auto;
+}
+
+.mat-card {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.quote {
+    text-indent: 1%;
+    margin-left: 15%;
+    width: 70%;
+    font-style: italic;
+    color: #808080;
+    font-size: large;
+    line-height: 1.5;
+    text-indent: 5%;
+}
+
+.img-div {
+    border: 10px double #808080;
+    height: 75px; 
+    width: 75px;
+}
+
+.name {
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 2;
+    white-space: pre-line;
+    font-family: 'Heebo', sans-serif;
+}
+
+.adj {
+    color: #32CD32;
+}
+
+@media only screen and (max-width: 991px) {
+    .a {
+        margin-bottom: 5%;
+    }
+}

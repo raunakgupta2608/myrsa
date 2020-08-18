@@ -43,6 +43,19 @@
     height: auto;
 }
 
+.format_quote{
+    display: flex;
+    align-items: flex-start;
+    color: #32CD32;
+}
+
+.mat-icon {
+    margin-top: 17px;
+    margin-left: 15%;
+    font-size: 80px;
+    transform: rotate(180deg);
+}
+
 .mat-card {
     width: 100%;
     height: 100%;

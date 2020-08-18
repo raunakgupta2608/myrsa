@@ -17,8 +17,11 @@
     <div class="row m-5">
       <div class="col-lg-4 a" *ngFor="let a of arr">
         <mat-card class="mat-card">
+          <div class="format_quote">
+            <mat-icon class="mat-icon">format_quote</mat-icon>
+          </div>
           <mat-card-content>
-            <p class="text-center quote pt-5">{{ a.quote }}</p>
+            <p class="text-center quote">{{ a.quote }}</p>
             <div class="d-flex justify-content-center mt-3">
               <img class="rounded-circle img-div" src="{{ a.image }}" alt="img">
             </div>
